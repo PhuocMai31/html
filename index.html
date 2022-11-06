@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <!--Phần Đầu-->
-
+<link rel="stylesheet" href="cssofindex.css">
 <head>
     <title>CV Mai Bảo Phước</title>
     <meta charset="utf-8">
 </head>
 <body>
-<ul> <b>
-    <li>Việt Nam</li>
+<ul><b>
+    <li class="desc">Việt Nam</li>
     <ol>
         <li>Hà Nội</li>
         <li>Huế</li>
@@ -27,9 +27,115 @@
         <li>Beijing</li>
         <li>Chongqing</li>
         <li>Sanghai</li>
-        <li>Tianjin</li> </b>
+        <li>Tianjin</li>
+</b>
     </ol>
 </ul>
+<form>
+    firstname:
+    <input type="float" name="first name">
+    last name:
+    <input type="password" name="lastname">
+    <input type="submit" value="submit">
+    <input type="reset"
+</form>
+<table border="2">
+    <tr>
+        <th>Quý</th>
+        <th>Tháng</th>
+        <th>Doanh Thu</th>
+    </tr>
+    <tr>
+        <td rowspan="2">Một</td>
+        <td>1</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>90</td>
+    </tr>
+    <tr>
+        <td colspan="4"> Tổng doanh thu quý Một: 170</td>
+    </tr>
+</table>
+<form action="http://localhost:8080">
+    <fieldset>
+        <legend>Personal ìnormation</legend>
+        Tai Khoan: <br>
+        <input type="Name" value="Mickey"> <br>
+        Mat Khau: <br>
+        <input type="Password" value="Password"> <br>
+        <input name="checkbox" type="checkbox"> Tôi đồng ý với điều khoản dịch vụ <br>
+        <input name="checkbox" type="checkbox"> Đồng ý cung cấp <a
+            href="https://v1study.com/html-cac-thuoc-tinh-global-a591.html"> thông tin không quan trọng</a>
+        <br>
+        <input type="submit" value="LOGIN">
+        <input type="reset" value="Reset">
+        Tên:<br>
+        <input type="text" name="ten" value="An" readonly>
+    </fieldset>
+    <form method="POST">
+        <textarea cols="50" rows="4">This is a very very long text text text text text text text text text text text text </textarea>
+    </form>
+</form>
 
+<select name="city" id="fhssfh">
+    <option value="HN">Hà Nội</option>
+    <option value="H">Huế</option>
+    <option value="ĐN">Đà Nẵng</option>
+    <option value="HA">Hội An</option>
+</select>
+
+<select name="city" <select name="city" multiple>
+    <option value="HN">Hà Nội</option>
+    <option value="HP">Hải Phòng</option>
+    <option value="HU">Huế</option>
+    <option value="DN">Đà Nẵng</option>
+    <option value="SG">Sài Gòn</option>
+</select> >
+<option value="HN">Hà Nội</option>
+<option value="HP">Hải Phòng</option>
+<option value="HU">Huế</option>
+<option value="DN">Đà Nẵng</option>
+<option value="SG">Sài Gòn</option>
+</select>
+
+<h4>Bảng doanh thu các tỉnh thành phố tại Việt Nam</h4>
+<table border="3">
+    <tr>
+    <th rowspan="5">Quý 1</th>
+    <th>Thành Phố</th>
+    <th>Tháng 1</th>
+    <th>Tháng 2</th>
+    <th>Tháng 3</th>
+    </tr>
+    <tr>
+        <td>Hà Nội</td>
+        <td>100</td>
+        <td>50</td>
+        <td>90</td>
+    </tr>
+    <tr>
+        <td>Hội An</td>
+        <td>50</td>
+        <td>60</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>Đà Nẵng</td>
+        <td>400</td>
+        <td>80</td>
+        <td>30</td>
+    </tr>
+    <tr>
+    <td>Doanh Thu Tổng</td>
+    <td>240</td>
+    <td>330</td>
+    <td>510</td>
+    </tr>
+    <tr>
+       <center> <td colspan="5">Tổng doanh Thu Quý: 2200</td> </center>
+    </tr>
+</table>
 
 </body>

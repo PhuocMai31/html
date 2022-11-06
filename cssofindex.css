@@ -1,0 +1,7 @@
+:root{
+    --textcolor: darkorange;
+}
+li{
+    color: var(--textcolor);
+    font-size: 40px;
+}
